@@ -1,1 +1,0 @@
-export const TENANT_CONNECTION = Symbol('TENANT_CONNECTION');
