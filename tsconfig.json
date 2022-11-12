@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["es2019", "dom"],
+    "paths": {
+      "@enums/*": ["src/app/common/enums/*"],
+      "@entities/*": ["src/app/entities/*"],
+      "@services/*": ["src/app/services/*"],
+      "@middlewares/*": ["src/app/middlewares/*"],
+      "@providers/*": ["src/app/providers/*"],
+      "@decorators/*": ["src/app/common/decorators/*"],
+      "@controller/v1/backend/*": ["src/app/http/v1/backend/controllers/*"],
+      "@resources/backend/*": ["src/app/http/v1/backend/resources/*"],
+      "@exceptions/*": ["src/app/exceptions/*"],
+      "@constants/*": ["src/app/constants/*"],
+      "@interfaces/*": ["src/app/common/interfaces/*"],
+      "@helpers/*": ["src/app/common/helpers/*"],
+      "@dtos/v1/backend/*": ["src/app/http/v1/backend/dtos/*"],
+      "@resources/frontend/*": ["src/app/http/v1/frontend/resources/*"],
+      "@controller/v1/frontend/*": ["src/app/http/v1/frontend/controllers/*"],
+      "@dtos/v1/frontend/*": ["src/app/http/v1/frontend/dtos/*"],
+    }
+  }
+}

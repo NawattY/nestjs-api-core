@@ -1,0 +1,11 @@
+{
+  "support_locale_th": "Thai",
+  "support_locale_en": "English",
+  "send_request_password_title": "Axons Password Reset",
+  "password_reset_label_set_your_new_password": "Please set your new password",
+  "password_reset_label_dear": "Dear {fullName}",
+  "password_reset_label_please_click_link_below": "Please click the link below to set new <br />password.",
+  "password_reset_btn_reset_password": "Reset Password",
+  "qr_code_scan_to_view": "Scan to view menu!",
+  "product_recommend_group_title": "Recommended"
+}
